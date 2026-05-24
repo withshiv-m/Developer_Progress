@@ -1,2 +1,2 @@
-# Developer_Progress
-Track my progress in development
+# Progress track
+track my progress in developer
