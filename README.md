@@ -66,7 +66,7 @@ in preformatted style
 ---
 ✨ These are commonly used basic HTML tags for structuring content.
 ---------------------------------------------------------------------------------------------------------
-📄 formate.html(30/05/2026)
+# 📄 formate.html(30/05/2026)
 # 📝 HTML Text Formatting
 This file demonstrates different **HTML text formatting tags**.
 
