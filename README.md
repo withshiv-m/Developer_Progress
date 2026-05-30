@@ -1,5 +1,20 @@
 #  Devloper Progress track
-
+📄 index.html(15/05/2026)
+# 🎨 CSS Selectors
+This file shows how different **CSS selectors** work in HTML.
+## 📌 Topics
+* Class selector (`.red`)
+* ID selector (`#green`)
+* Element selector (`div`)
+* Child selector (`div > p`)
+* Descendant selector (`div p`)
+* Universal selector (`*`)
+* Pseudo selectors (`:hover`, `:active`, `:visited`, `:link`)
+## 🚀 How to Run
+Open the file in any browser and see how styles are applied.
+---
+✨ Basic example to understand CSS selectors.
+--------------------------------------------------------------------------------------
 📄 htmlstyle.html(30/05/2026)
 This file demonstrates how to use the style attribute in HTML to apply inline styling.
 #🎨 HTML Style Attribute
@@ -26,6 +41,8 @@ The **style attribute** in HTML is used to apply **inline CSS** directly to an e
 Avoid using inline styles in large projects. Use **external CSS** for better structure and maintainability.
 ---
 ⭐ Easy and fast way to style elements directly!
+-----------------------------------------------------------------------------------------------------------
+📄 br.html
 date:30/05/2026
 ## 🏷️ Basic HTML Tags
 | Tag     | Description                                 |
