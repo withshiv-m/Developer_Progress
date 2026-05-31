@@ -185,3 +185,32 @@ This project shows how to use the **`<a>` tag** in HTML.
 ## ⚠️ Note
 Use only **one `<body>` tag** in HTML.
 -----------------------------------------------------------------------------
+Project:-
+📄bookmark.html
+# 🔖 HTML Bookmarks (Internal Links)
+This project demonstrates how to create **bookmarks (internal links)** in HTML using the `<a>` tag and `id` attribute.
+
+## 📌 Features
+* Navigate within the same page
+* Jump to specific sections (Chapter 4, 10, 20)
+* Internal CSS styling
+* External CSS using `color.css`
+
+## 🔗 Example
+```html
+<a href="#C4">Go to Chapter 4</a>
+
+<h2 id="C4">Chapter 4</h2>
+```
+
+## ⚙️ How It Works
+* `href="#C4"` → links to section
+* `id="C4"` → target section
+
+## 🎯 Use Case
+Helpful for long pages like:
+
+* Documentation
+* Notes
+* Tutorials
+--------------------------------------------------------------------------------------------------------------------------
