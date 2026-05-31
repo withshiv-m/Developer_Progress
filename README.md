@@ -86,3 +86,18 @@ This file demonstrates different **HTML text formatting tags**.
 Open the file in a browser to see formatted text.
 ---
 ✨ Basic example to understand HTML text formatting.
+
+📄quotation.html(31/05/2026)
+# 📘 HTML Quotation & Citation Elements
+This project shows basic HTML quotation and citation tags.
+## 🔹 Tags Included
+
+* `<abbr>` – Abbreviation
+* `<address>` – Contact info
+* `<bdo>` – Text direction
+* `<blockquote>` – Long quote
+* `<cite>` – Title of work
+* `<q>` – Short quote
+
+## 🚀 Purpose
+Learn semantic HTML and improve code readability.
