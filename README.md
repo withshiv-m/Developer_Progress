@@ -148,3 +148,40 @@ This project covers the fundamentals of **HTML styling and CSS usage**.
 
 ## 🚀 Purpose
 To understand how to style web pages using basic CSS techniques.
+---------------------------------------------------------------------------------------------------
+📄link.html(01/01/2026)
+# 🔗 HTML Anchor Tags
+This project shows how to use the **`<a>` tag** in HTML.
+
+## 📌 Topics Covered
+
+* Links using `href`
+* `target` attribute (`_blank`, `_self`, etc.)
+* Absolute vs Relative URLs
+* Image as a link
+* Email links (`mailto:`)
+
+## 🌐 Examples
+
+**Absolute URL**
+```html
+<a href="https://www.google.com">Google</a>
+```
+
+**Relative URL**
+```html
+<a href="shiv.jpg">Image</a>
+```
+**Image as Link**
+```html
+<a href="default.asp">
+  <img src="smiley.gif" alt="img" width="42">
+</a>
+```
+**Email Link**
+```html
+<a href="mailto:mugleshiv1531@gemail.com">Send Email</a>
+```
+## ⚠️ Note
+Use only **one `<body>` tag** in HTML.
+-----------------------------------------------------------------------------
