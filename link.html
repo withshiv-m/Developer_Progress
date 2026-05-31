@@ -5,35 +5,79 @@ Use the <img> element (inside <a>) to use an image as a link
 Use the mailto: scheme inside the href attribute to create a link that opens the user's email program -->
 <!DOCTYPE html>
 <html>
-    <head>
 
-    </head>
-    <body>
-        <h1>Anchor Tags</h1>
-        <a target="_self" href="https://www.instagram.com" title="Instagram">Instagram</a><br>
-        <a target="_blank" href="https://www.google.com">Google</a><br>
-        <a target="_parent" href="https://www.facebook.com">Facebook</a><br>
-        <a target="_top" href="https://www.flipkart.com">Flipkart</a>
-    </body>
+<head>
+    <style>
+        a:link {
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
 
-    <!-- Use Absolute URL 👉 when linking to other websites
+        a:visited {
+            color: rgb(226, 124, 141);
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:link,
+        a:visited {
+            background-color: #f44336;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        a:hover,
+        a:active {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Anchor Tags</h1>
+    <a target="_self" href="https://www.instagram.com" title="Instagram">Instagram</a><br>
+    <a target="_blank" href="https://www.google.com">Google</a><br>
+    <a target="_parent" href="https://www.facebook.com">Facebook</a><br>
+    <a target="_top" href="https://www.flipkart.com">Flipkart</a>
+</body>
+
+<!-- Use Absolute URL 👉 when linking to other websites
     Use Relative URL 👉 when linking within your own website/project -->
-    <body>
-        <h2>Absolute URLs</h2>
-        <p><a href="https://www.google.com">Google</a></p>
-        <h2>Relative URLs</h2>
-        <p><a href="shiv.jpg">shiv</a></p>
-    </body>
 
-    <body>
-        <!-- To use an image as a link, just put the <img> tag inside the <a> tag: -->
-        <a href="default.asp">
+<body>
+    <h2>Absolute URLs</h2>
+    <p><a href="https://www.google.com">Google</a></p>
+    <h2>Relative URLs</h2>
+    <p><a href="shiv.jpg">shiv</a></p>
+</body>
+
+<body>
+    <!-- To use an image as a link, just put the <img> tag inside the <a> tag: -->
+    <a href="default.asp">
         <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
-        </a>
-    </body>
-    <br>
-    <body>
-        <a href="mailto:mugleshiv1531@gemail.com"> send email</a><br>
-        <button onclick="window.location.href='mailto:mugleshiv1531@gemail.com'">Send Email</button>
-    </body>
+    </a>
+</body>
+<br>
+
+<body>
+    <a href="mailto:mugleshiv1531@gemail.com"> send email</a><br>
+    <button onclick="window.location.href='mailto:mugleshiv1531@gemail.com'">Send Email</button>
+</body>
+
 </html>
