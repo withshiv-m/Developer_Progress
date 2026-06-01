@@ -216,31 +216,31 @@ Helpful for long pages like:
 --------------------------------------------------------------------------------------------------------------------------
 📄img.html(1/06/2026)
 
-✨ Features
-🖼️ Display images using <img>
-🗺️ Create interactive image maps
-🎯 Click different parts of image for different actions
-💡 Beginner-friendly HTML concepts
+*✨ Features
+*🖼️ Display images using <img>
+*🗺️ Create interactive image maps
+*🎯 Click different parts of image for different actions
+*💡 Beginner-friendly HTML concepts
 
-Here are the most common image file types, which are supported in all browsers (Chrome, Edge, Firefox, Safari, Opera):
+##Here are the most common image file types, which are supported in all browsers (Chrome, Edge, Firefox, Safari, Opera):
 
-Abbreviation	File Format	               File Extension
-APNG	Animated Portable Network Graphics	.apng
-GIF	     Graphics Interchange Format	     .gif
-ICO	      Microsoft Icon	                 .ico, .cur
-JPEG	Joint Photographic Expert Group image .jpg, .jpeg, .jfif, .pjpeg, .pjp
-PNG	        Portable Network Graphics	      .png
-SVG	     Scalable Vector Graphics	          .svg 
+*Abbreviation	File Format	               File Extension
+*APNG	Animated Portable Network Graphics	.apng
+*GIF	     Graphics Interchange Format	     .gif
+*ICO	      Microsoft Icon	                 .ico, .cur
+*JPEG	Joint Photographic Expert Group image .jpg, .jpeg, .jfif, .pjpeg, .pjp
+*PNG	        Portable Network Graphics	      .png
+*SVG	     Scalable Vector Graphics	          .svg 
 
-HTML Image Tags
-Tag	       Description
-<img>	     Defines an image
-<map>	     Defines an image map
-<area>	   Defines a clickable area inside an image map
-<picture>	 Defines a container for multiple image resources
+##HTML Image Tags
+*Tag	       Description
+*<img>	     Defines an image
+*<map>	     Defines an image map
+*<area>	   Defines a clickable area inside an image map
+*<picture>	 Defines a container for multiple image resources
 
-🎯 Clickable Areas
-Area	Shape	Action
-💻 Laptop	Rectangle	Opens link
-📓 Notebook	Rectangle	Opens link
-🖱️ Mouse	Circle	Opens link
+##🎯 Clickable Areas
+*Area	Shape	Action
+*💻 Laptop	Rectangle	Opens link
+*📓 Notebook	Rectangle	Opens link
+*🖱️ Mouse	Circle	Opens link
