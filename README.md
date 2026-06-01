@@ -215,8 +215,6 @@ Helpful for long pages like:
 * Tutorials
 --------------------------------------------------------------------------------------------------------------------------
 📄img.html(1/06/2026)
-📸 Preview
-<p align="center"> <img src="workplace.jfif" width="500" alt="Workplace Image"> </p>
 
 ✨ Features
 🖼️ Display images using <img>
@@ -224,14 +222,22 @@ Helpful for long pages like:
 🎯 Click different parts of image for different actions
 💡 Beginner-friendly HTML concepts
 
-🧠 How It Works
-<img src="workplace.jfif" usemap="#workmap" width="600">
+Here are the most common image file types, which are supported in all browsers (Chrome, Edge, Firefox, Safari, Opera):
 
-<map name="workmap">
-  <area shape="rect" coords="150,120,600,400" href="#" alt="Laptop">
-  <area shape="rect" coords="650,350,1000,650" href="#" alt="Notebook">
-  <area shape="circle" coords="900,350,50" href="#" alt="Mouse">
-</map>
+Abbreviation	File Format	               File Extension
+APNG	Animated Portable Network Graphics	.apng
+GIF	     Graphics Interchange Format	     .gif
+ICO	      Microsoft Icon	                 .ico, .cur
+JPEG	Joint Photographic Expert Group image .jpg, .jpeg, .jfif, .pjpeg, .pjp
+PNG	        Portable Network Graphics	      .png
+SVG	     Scalable Vector Graphics	          .svg 
+
+HTML Image Tags
+Tag	       Description
+<img>	     Defines an image
+<map>	     Defines an image map
+<area>	   Defines a clickable area inside an image map
+<picture>	 Defines a container for multiple image resources
 
 🎯 Clickable Areas
 Area	Shape	Action
