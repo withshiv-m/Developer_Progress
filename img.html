@@ -1,0 +1,32 @@
+<!-- Common Image Formats
+Here are the most common image file types, which are supported in all browsers (Chrome, Edge, Firefox, Safari, Opera):
+
+Abbreviation	File Format	               File Extension
+APNG	Animated Portable Network Graphics	.apng
+GIF	     Graphics Interchange Format	     .gif
+ICO	      Microsoft Icon	                 .ico, .cur
+JPEG	Joint Photographic Expert Group image .jpg, .jpeg, .jfif, .pjpeg, .pjp
+PNG	        Portable Network Graphics	      .png
+SVG	     Scalable Vector Graphics	          .svg -->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1 align="center">It's Pickachu!</h1>
+        <img src="pickachu.jfif" alt="it's pickachu" width="200px">
+    </body>
+
+    <!-- image map  -->
+     <body>
+        <img src="workplace.jfif" alt="Workplace" usemap="#workmap">
+        <map name="workmap">
+            <area shape="rect" coords="150,120,600,400" alt="Laptop" href="pickachu.jfif">
+            <area shape="rect" coords="650,350,1000,650" alt="Notes" href="">
+            <area shape="circle" coords="900,350,50" alt="Mouse" href="workplace.jfif">
+        </map>
+        <!-- Tag	Description
+        <img>	    Defines an image
+        <map>	    Defines an image map
+        <area>	    Defines a clickable area inside an image map
+        <picture>	Defines a container for multiple image resources -->
+     </body>
+</html>
