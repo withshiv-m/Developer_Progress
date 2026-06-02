@@ -299,3 +299,106 @@ Understanding HTML image tags helps you:
 ---
 ⭐ If you found this helpful, consider giving this repo a star!
 -----------------------------------------------------------------------------------------------------
+📄favicon.html(02/06/2026)
+# 🌐 HTML Favicon Guide
+
+This repository explains how to add a **favicon (website icon)** to your HTML webpage.
+
+---
+
+## 📌 What is a Favicon?
+
+A **favicon** is a small icon that appears:
+
+* In the browser tab
+* In bookmarks
+* In browser history
+
+It helps in **branding and easy identification** of your website.
+
+---
+
+## 🛠️ How to Add Favicon in HTML
+
+Use the `<link>` tag inside the `<head>` section:
+
+### ✅ Basic Example
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Favicon Example</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+    <h1>Hello World</h1>
+</body>
+</html>
+```
+
+---
+
+## 📁 Folder Structure
+
+Make sure your file structure is correct:
+
+```
+project/
+ ├── index.html
+ └── favicon.png
+```
+
+Or if using folder:
+
+```
+project/
+ ├── index.html
+ └── images/
+      └── favicon.png
+```
+
+Then use:
+
+```html
+<link rel="icon" href="images/favicon.png" type="image/png">
+```
+
+---
+
+## 🧾 Supported Formats
+
+| Format | Type Value                   |
+| ------ | ---------------------------- |
+| `.ico` | image/x-icon                 |
+| `.png` | image/png                    |
+| `.jpg` | image/jpeg (not recommended) |
+
+---
+
+## ⚠️ Common Mistakes
+
+* ❌ Wrong file path
+* ❌ Incorrect `type` value
+* ❌ Using `.jpg` (not reliable)
+* ❌ Browser cache not cleared
+
+---
+
+## 💡 Tips
+* Use **.png or .ico** format
+* Keep size **16x16 or 32x32 pixels**
+* Clear cache using **Ctrl + Shift + R**
+* Test image path directly in browser
+
+---
+
+## 🚀 Conclusion
+Adding a favicon improves:
+
+* User experience
+* Website branding
+* Professional look
+
+---
+⭐ If you found this helpful, don’t forget to star this repository!
