@@ -216,43 +216,86 @@ Helpful for long pages like:
 --------------------------------------------------------------------------------------------------------------------------
 📄img.html(1/06/2026)
 
-# 🖼️ HTML Image Map
-
-An **image map** lets you create clickable areas on an image.
-
----
-
-## 📌 Key Points
-
-* `<map>` → defines the image map
-* `<area>` → defines clickable regions
-* `usemap` → links image to the map
+# 🖼️ HTML Image Tags Guide
+This repository contains a simple guide to understanding **HTML image-related tags** and how they are used in web development.
 
 ---
 
-## 💡 Example
+## 📌 Overview
+HTML provides several tags to display images and create interactive image areas. Below are the most commonly used image tags:
+
+---
+
+## 🏷️ HTML Image Tags
+
+| Tag         | Description                                      |
+| ----------- | ------------------------------------------------ |
+| `<img>`     | Defines an image                                 |
+| `<map>`     | Defines an image map                             |
+| `<area>`    | Defines a clickable area inside an image map     |
+| `<picture>` | Defines a container for multiple image resources |
+
+---
+
+## 🖼️ 1. `<img>` Tag
+The `<img>` tag is used to display images on a webpage.
+
+### Example:
 
 ```html
-<img src="image.jpg" usemap="#map1" alt="Example">
+<img src="image.jpg" alt="Sample Image" width="300">
+```
 
-<map name="map1">
-  <area shape="rect" coords="34,44,270,350" href="page1.html" alt="Area1">
-  <area shape="circle" coords="337,300,44" href="page2.html" alt="Area2">
+---
+
+## 🗺️ 2. `<map>` Tag
+The `<map>` tag is used to create an image map (clickable areas on an image).
+
+---
+
+## 🔲 3. `<area>` Tag
+The `<area>` tag defines clickable regions inside an image.
+
+### Example:
+
+```html
+<img src="image.jpg" usemap="#imagemap">
+
+<map name="imagemap">
+  <area shape="rect" coords="34,44,270,350" href="link.html" alt="Clickable Area">
 </map>
 ```
 
 ---
 
-## 🚀 Shapes
+## 🖼️ 4. `<picture>` Tag
+The `<picture>` tag allows you to use multiple images for different screen sizes.
 
-* `rect` → rectangle
-* `circle` → circle
-* `poly` → polygon
+### Example:
+
+```html
+<picture>
+  <source media="(max-width: 600px)" srcset="small.jpg">
+  <source media="(max-width: 1200px)" srcset="medium.jpg">
+  <img src="large.jpg" alt="Responsive Image">
+</picture>
+```
+---
+
+## 🚀 Features of This Repo
+* Beginner-friendly explanation
+* Simple examples
+* Useful for practice and revision
 
 ---
 
-## 🎯 Clickable Areas
-* Area	Shape	Action
-* 💻 Laptop	Rectangle	Opens link
-* 📓 Notebook	Rectangle	Opens link
-* 🖱️ Mouse	Circle	Opens link
+## 📚 Conclusion
+Understanding HTML image tags helps you:
+
+* Display images effectively
+* Create interactive UI
+* Build responsive websites
+
+---
+⭐ If you found this helpful, consider giving this repo a star!
+-----------------------------------------------------------------------------------------------------
