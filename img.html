@@ -10,6 +10,16 @@ PNG	        Portable Network Graphics	      .png
 SVG	     Scalable Vector Graphics	          .svg -->
 <!DOCTYPE html>
 <html>
+    <head>
+        <style>
+            body {
+                background-image: url("workplace.jfif"); /* background image */
+                background-repeat: no-repeat; /* background image will not repeat */
+                background-attachment: fixed; /* background image will be fixed */
+                background-size: cover; /* background image will cover the whole page */
+            }
+        </style>
+    </head>
     <body>
         <h1 align="center">It's Pickachu!</h1>
         <img src="pickachu.jfif" alt="it's pickachu" width="200px">
@@ -28,5 +38,14 @@ SVG	     Scalable Vector Graphics	          .svg -->
         <map>	    Defines an image map
         <area>	    Defines a clickable area inside an image map
         <picture>	Defines a container for multiple image resources -->
+     </body>
+
+     <!-- picture element -->
+     <body>
+        <picture>
+            <source media="(min-width: 650px)" srcset="workplace.jfif">
+            <source media="(min-width: 465px)" srcset="pickachu.jfif">
+            <img src="workplace.jfif" alt="Workplace">
+        </picture>
      </body>
 </html>
