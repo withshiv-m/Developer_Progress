@@ -402,3 +402,33 @@ Adding a favicon improves:
 
 ---
 ⭐ If you found this helpful, don’t forget to star this repository!
+----------------------------------------------------------------------------------------------------
+📄button.html(03/0/2026)
+# 🔘 HTML Button
+Simple example of using buttons in HTML.
+
+## 🧱 Basic Button
+```html
+<button>Click Me</button>
+```
+
+## 🎨 Styled Button
+```html
+<button style="background:blue; color:white; padding:10px; border:none; border-radius:5px;">
+  Click Me
+</button>
+```
+
+## ⚙️ Types
+```html
+<button type="button">Button</button>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+```
+
+## 🚀 Features
+* Easy to use
+* Customizable with CSS
+* Supports actions with JavaScript
+
+---
