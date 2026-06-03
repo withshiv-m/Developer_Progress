@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .mytestbtn {
+                background-color: green;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <button>Click Me</button><br>
+        <button class="mytestbtn">Green Button</button>
+        <button disabled>Disabled Button</button><br>
+        <button onclick="alert('Hello, World!')">Click Me</button>
+        <!-- The type attribute defines what a button does when clicked. There are three button types:
+        type="button" - A normal clickable button (does nothing by default)
+        type="submit" - Submits a form
+        type="reset" - Resets all form fields -->
+        <button type="button">Normal Button</button>
+        <button type="submit">Submit Button</button>
+        <button type="reset">Reset Button</button>
+
+        <!-- For now, just know that a submit button sends the form data to the server, while a reset button clears the form: -->
+        <form action="/action_page.php">
+            First name: <input type="text" name="fname"><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </body>
+</html>
