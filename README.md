@@ -431,4 +431,12 @@ Simple example of using buttons in HTML.
 * Customizable with CSS
 * Supports actions with JavaScript
 
----
+--------------------------------------------------------------------------------------------------------------
+📄first.css(04/06/2026)
+## What is CSS?
+* CSS is the language we use to style a Web page.
+
+* CSS stands for Cascading Style Sheets
+* CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+* CSS saves a lot of work. It can control the layout of multiple web pages all at once
+* External stylesheets are stored in CSS files
