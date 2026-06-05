@@ -440,3 +440,76 @@ Simple example of using buttons in HTML.
 * CSS describes how HTML elements are to be displayed on screen, paper, or in other media
 * CSS saves a lot of work. It can control the layout of multiple web pages all at once
 * External stylesheets are stored in CSS files
+===============================================================================================================
+📄background.html(05/06/2026)
+📄background.css
+# 🎨 CSS Background Properties Guide
+This repository contains a simple and clear explanation of **CSS Background Properties** with examples.
+
+---
+
+## 📌 What are Background Properties?
+CSS background properties are used to define the background effects of an element such as **color, image, position, size, and more**.
+
+---
+
+## 🧠 List of Background Properties
+
+| Property                | Description                                                     |
+| ----------------------- | --------------------------------------------------------------- |
+| `background`            | Shorthand property to set all background properties in one line |
+| `background-attachment` | Defines if background scrolls or stays fixed                    |
+| `background-clip`       | Specifies the painting area of the background                   |
+| `background-color`      | Sets the background color                                       |
+| `background-image`      | Sets an image as background                                     |
+| `background-origin`     | Defines where the background image is positioned                |
+| `background-position`   | Sets the starting position of background image                  |
+| `background-repeat`     | Defines how background image repeats                            |
+| `background-size`       | Sets the size of the background image                           |
+
+---
+
+## 🔥 Example
+```css
+body {
+  background-color: lightblue;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+```
+
+---
+
+## ⚡ Shorthand Example
+```css
+body {
+  background: lightblue url("bg.jpg") no-repeat center/cover fixed;
+}
+```
+
+---
+
+## 💡 Key Points
+* `background` saves time by combining all properties
+* `background-size: cover` makes image fit full screen
+* `background-attachment: fixed` creates parallax effect
+* `background-repeat: no-repeat` prevents repeating
+
+---
+
+## 🎯 Use Cases
+* Landing pages
+* Portfolio websites
+* Hero sections
+* Parallax scrolling effects
+
+---
+
+## 🚀 Conclusion
+CSS background properties help you create visually appealing designs with simple code.
+
+---
+⭐ If you found this helpful, give this repo a star!
