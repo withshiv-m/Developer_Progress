@@ -441,8 +441,8 @@ Simple example of using buttons in HTML.
 * CSS saves a lot of work. It can control the layout of multiple web pages all at once
 * External stylesheets are stored in CSS files
 ---------------------------------------------------------------------------------------------------------------
-##📄background.html(05/06/2026)
-##📄background.css
+#📄background.html(05/06/2026)
+#📄background.css
 # 🎨 CSS Background Properties Guide
 This repository contains a simple and clear explanation of **CSS Background Properties** with examples.
 
