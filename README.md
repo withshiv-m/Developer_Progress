@@ -514,3 +514,70 @@ CSS background properties help you create visually appealing designs with simple
 ---
 ⭐ If you found this helpful, give this repo a star!
 -----------------------------------------------------------------------------------------------------------
+📄border.html(06/06/2026)
+# 🎨 CSS Border Properties Guide
+This repository provides a complete overview of all CSS border properties with simple explanations. It is useful for beginners who want to understand how borders work in CSS.
+
+---
+
+## 📌 What are CSS Borders?
+
+CSS borders are used to define the outline of an element. You can control the **width, style, color, and shape** of borders.
+
+---
+
+## 📋 All CSS Border Properties
+
+| Property              | Description                                              |
+| --------------------- | -------------------------------------------------------- |
+| `border`              | Sets all the border properties in one declaration        |
+| `border-bottom`       | Sets all the bottom border properties in one declaration |
+| `border-bottom-color` | Sets the color of the bottom border                      |
+| `border-bottom-style` | Sets the style of the bottom border                      |
+| `border-bottom-width` | Sets the width of the bottom border                      |
+| `border-color`        | Sets the color of the four borders                       |
+| `border-left`         | Sets all the left border properties in one declaration   |
+| `border-left-color`   | Sets the color of the left border                        |
+| `border-left-style`   | Sets the style of the left border                        |
+| `border-left-width`   | Sets the width of the left border                        |
+| `border-radius`       | Sets rounded corners for borders                         |
+| `border-right`        | Sets all the right border properties in one declaration  |
+| `border-right-color`  | Sets the color of the right border                       |
+| `border-right-style`  | Sets the style of the right border                       |
+| `border-right-width`  | Sets the width of the right border                       |
+| `border-style`        | Sets the style of the four borders                       |
+| `border-top`          | Sets all the top border properties in one declaration    |
+| `border-top-color`    | Sets the color of the top border                         |
+| `border-top-style`    | Sets the style of the top border                         |
+| `border-top-width`    | Sets the width of the top border                         |
+| `border-width`        | Sets the width of the four borders                       |
+
+---
+
+## 💡 Example
+
+```css
+div {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+```
+
+---
+
+## 🎯 Key Concepts
+* Use `border` shorthand to write clean code
+* Use `border-radius` for rounded corners
+* Customize each side using `border-top`, `border-left`, etc.
+
+---
+
+## 🚀 Conclusion
+Understanding CSS border properties helps you design visually appealing layouts and improve UI design.
+
+---
+
+## 👨‍💻 Author
+**Shivprasad**
+Frontend Developer (HTML, CSS, JavaScript)
+---
