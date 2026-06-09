@@ -690,3 +690,113 @@ CSS margins are essential for layout and spacing. Mastering them helps you build
 
 ---
 ⭐ If you found this helpful, consider giving this repo a star!
+--------------------------------------------------------------------------------------------------------------------------------
+Text.css (09/06/2026)
+# 🎨 CSS Text & Alignment Practice
+This repository contains basic examples of **CSS properties** related to text styling, alignment, and decoration. It is useful for beginners learning CSS fundamentals.
+
+---
+
+## 📌 Topics Covered
+
+### 1. Background & Text Color
+
+```css
+body {
+    background-color: lightgray;
+    color: blue;
+}
+```
+
+* `background-color` → sets background color of the page
+* `color` → sets text color
+
+---
+
+### 2. Text Alignment
+
+```css
+h1 {
+    text-align: center;
+}
+```
+
+#### Values:
+
+* `left` → text aligned left
+* `right` → text aligned right
+* `center` → text centered
+* `justify` → equal spacing
+
+---
+
+### 3. Vertical Alignment
+
+```css
+img.h1 {
+    vertical-align: text-bottom;
+}
+```
+
+Used to align elements vertically relative to surrounding content.
+
+#### Values:
+
+* `top` → align to top
+* `middle` → center vertically
+* `bottom` → align to bottom
+* `text-top` / `text-bottom` → align with text
+
+---
+
+### 4. Text Decoration
+
+```css
+h1 {
+  text-decoration-line: overline;
+  text-decoration-line: line-through;
+}
+```
+
+#### Types:
+
+* `underline` → line below text
+* `overline` → line above text
+* `line-through` → line through text
+* `none` → no decoration
+
+---
+
+## ⚠️ Note
+
+If multiple `text-decoration-line` are used, the last one will override the previous one.
+
+---
+
+## 🚀 Purpose
+
+This project is created to:
+
+* Practice basic CSS properties
+* Understand text styling
+* Learn alignment techniques
+
+---
+
+## 📂 How to Use
+
+1. Clone the repository
+2. Open the HTML file in your browser
+3. Modify CSS and experiment
+
+---
+
+## 👨‍💻 Author
+
+Shivprasad
+
+---
+
+## ⭐ Support
+
+If you found this helpful, give it a ⭐ on GitHub!
