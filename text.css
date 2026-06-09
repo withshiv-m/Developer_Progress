@@ -1,0 +1,47 @@
+ /* background-color property and the color property: */
+body {
+    background-color: lightgray;
+    color:blue;
+}
+/* property can have one of the following values:
+auto - Default value. The last line is justified and aligned left
+left - The last line is aligned to the left
+right - The last line is aligned to the right
+center - The last line is center-aligned
+justify - The last line is justified as the rest of the lines
+start - The last line is aligned at the start of the line
+end - The last line is aligned at the end of the line */
+h1 {
+    text-align: center;
+}
+
+ /* vertical-align - kisi element (text, image, button, etc.) ko upar (top), beech (center), ya neeche (bottom) ki direction me align karna. */
+ /*This property can have one of the following values:
+
+baseline - Default value. The element is aligned with the baseline of the parent
+length/% - Raises or lower an element by the specified length or percent
+sub - The element is aligned with the subscript baseline of the parent
+super - The element is aligned with the superscript baseline of the parent
+top - The element is aligned with the top of the tallest element on the line
+text-top - The element is aligned with the top of the parent element's font
+middle - The element is placed in the middle of the parent element
+bottom - The element is aligned with the lowest element on the line
+text-bottom - The element is aligned with the bottom of the parent element's font */
+img.h1 {
+  vertical-align: text-bottom;
+}
+
+/* Text Decoration  */
+/* text-decoration-line
+text-decoration-color
+text-decoration-style
+text-decoration-thickness */
+/* Decoration Line to Text
+none - Default value. Displays no decoration line
+underline - The decoration line is displayed under the text
+overline - The decoration line is displayed over the text
+line-through - The decoration line is displayed through the text */
+h1 {
+  text-decoration-line: overline;
+  text-decoration-line: line-through;
+}
