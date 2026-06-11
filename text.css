@@ -1,7 +1,7 @@
  /* background-color property and the color property: */
 body {
     background-color: lightgray;
-    color:blue;
+    color:rgb(0, 0, 0);
 }
 /* property can have one of the following values:
 auto - Default value. The last line is justified and aligned left
@@ -42,6 +42,33 @@ underline - The decoration line is displayed under the text
 overline - The decoration line is displayed over the text
 line-through - The decoration line is displayed through the text */
 h1 {
+  letter-spacing: 5px;
   text-decoration-line: overline;
   text-decoration-line: line-through;
+}
+/* CSS text-transform */
+p.uppercase {
+  text-transform: uppercase;
+}
+
+p.lowercase {
+  text-transform: lowercase;
+}
+
+p.capitalize {
+  text-transform: capitalize;
+}
+
+/* CSS Text Spacing */
+.sa {
+  line-height: 0.8;
+  white-space: nowrap;
+  word-spacing: 10px;
+  text-indent: 50px;
+}
+
+/* css text shadow  */
+.aa {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
