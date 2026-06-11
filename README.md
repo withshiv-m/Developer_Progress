@@ -800,3 +800,127 @@ Shivprasad
 ## ⭐ Support
 
 If you found this helpful, give it a ⭐ on GitHub!
+-------------------------------------------------------------------------------------
+font.css(11/06/2026)
+# 🎨 CSS Text Styling
+## 📌 Overview
+
+CSS text styling is used to control the appearance of text on a webpage. It helps improve readability, design, and user experience by applying different fonts, sizes, spacing, and alignment.
+
+---
+
+## 🔤 Font Properties
+
+### 1. font-family
+
+Defines the typeface of the text.
+
+```css
+font-family: 'Poppins', sans-serif;
+```
+
+---
+
+### 2. font-size
+
+Controls the size of the text.
+
+```css
+font-size: 16px;
+```
+
+---
+
+### 3. font-weight
+
+Sets the thickness of the text.
+
+```css
+font-weight: 400; /* normal */
+font-weight: 600; /* bold */
+```
+
+---
+
+### 4. font-style
+
+Applies style like italic.
+
+```css
+font-style: italic;
+```
+
+---
+
+## ✨ Text Properties
+
+### 5. color
+
+Sets the text color.
+
+```css
+color: #333;
+```
+
+---
+
+### 6. text-align
+
+Aligns text horizontally.
+
+```css
+text-align: center;
+text-align: left;
+text-align: right;
+```
+
+---
+
+### 7. text-decoration
+
+Adds or removes decoration.
+
+```css
+text-decoration: none;
+text-decoration: underline;
+```
+
+---
+
+### 8. text-transform
+
+Controls capitalization.
+
+```css
+text-transform: uppercase;
+text-transform: lowercase;
+text-transform: capitalize;
+```
+
+---
+
+### 9. letter-spacing
+
+Controls space between characters.
+
+```css
+letter-spacing: 1px;
+```
+
+---
+
+### 10. line-height
+
+Controls spacing between lines.
+
+```css
+line-height: 1.6;
+```
+
+---
+
+## 💡 Conclusion
+
+CSS text styling plays an important role in creating visually appealing and readable web pages. By using proper font and text properties, developers can enhance the overall user interface and user experience.
+
+---------------------------------------------------------------------------------------------------
