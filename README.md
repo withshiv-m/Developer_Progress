@@ -924,3 +924,104 @@ line-height: 1.6;
 CSS text styling plays an important role in creating visually appealing and readable web pages. By using proper font and text properties, developers can enhance the overall user interface and user experience.
 
 ---------------------------------------------------------------------------------------------------
+icon.html(12/06/2026)
+# 🎨 Icons Demo Project
+
+## 📌 About
+
+This project demonstrates how to use different icon libraries in a web page, including **Font Awesome** and **Google Material Icons**. It is a beginner-friendly project to understand how icons work in HTML using CDN links.
+
+---
+
+## 🚀 Features
+
+* Use of Font Awesome icons
+* Use of Google Material Icons
+* Custom styling (size & color)
+* Simple and clean HTML structure
+
+---
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS (inline styling)
+* Font Awesome CDN
+* Google Fonts (Material Icons)
+
+---
+
+## 🔧 How It Works
+
+### 1. Font Awesome Icons
+
+Icons are added using class names:
+
+```html
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-car"></i>
+```
+
+---
+
+### 2. Styling Icons
+
+You can change size and color:
+
+```html
+<i class="fa-solid fa-cloud" style="font-size:40px; color:red;"></i>
+```
+
+---
+
+### 3. Material Icons
+
+Icons are used like text:
+
+```html
+<i class="material-icons">cloud</i>
+<i class="material-icons">favorite</i>
+```
+
+---
+
+## 📂 Project Structure
+
+```bash
+project-folder/
+│── index.html
+```
+
+---
+
+## ▶️ How to Run
+
+1. Download or clone the repository
+2. Open `index.html` in your browser
+3. You will see all icons displayed
+
+---
+
+## 💡 Learning Outcome
+
+* Learned how to use icon libraries
+* Understood CDN integration
+* Practiced basic HTML structure
+
+---
+
+## ⚠️ Important Notes
+
+* Internet connection is required (CDN links)
+* Make sure correct icon class names are used
+
+---
+
+## 📬 Contact
+
+Feel free to connect with me for feedback or collaboration.
+
+---
+
+⭐ If you like this project, don't forget to star the repository!
+---------------------------------------------------------------------------------------------
