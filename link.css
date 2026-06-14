@@ -1,0 +1,21 @@
+a:hover {
+    color: red;
+    text-decoration: dotted;
+}
+a:active {
+    color: rgb(0, 255, 21);
+}
+
+a.four:link {color:red;}
+a.four:visited {color:blue;}
+a.four:hover {font-family:monospace;}
+
+/* button  */
+a:link,a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
