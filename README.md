@@ -1025,3 +1025,105 @@ Feel free to connect with me for feedback or collaboration.
 
 ⭐ If you like this project, don't forget to star the repository!
 ---------------------------------------------------------------------------------------------
+link.css(14/06/2026)
+# 🎨 CSS Link & Button Styling Project
+
+## 📌 Description
+
+This project demonstrates how to style links and buttons using CSS pseudo-classes like `:hover`, `:active`, `:link`, and `:visited`.
+
+It is a beginner-friendly project to understand how user interactions affect link appearance.
+
+---
+
+## 🚀 Features
+
+* Change link color on hover
+* Change link color when clicked (active state)
+* Custom styling for visited links
+* Styled buttons using anchor (`<a>`) tag
+* Font change on hover for specific class
+
+---
+
+## 🧠 Concepts Covered
+
+* CSS Pseudo-classes:
+
+  * `:hover`
+  * `:active`
+  * `:link`
+  * `:visited`
+* Styling anchor tags as buttons
+* Text decoration and font styling
+
+---
+
+## 💻 Code Example
+
+```css
+a:hover {
+    color: red;
+    text-decoration: dotted;
+}
+
+a:active {
+    color: rgb(0, 255, 21);
+}
+
+a.four:link {
+    color: red;
+}
+
+a.four:visited {
+    color: blue;
+}
+
+a.four:hover {
+    font-family: monospace;
+}
+
+/* Button Styling */
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+```
+
+---
+
+## 📷 Output
+
+* Links change color when hovered or clicked
+* Button-style links with background color
+* Different styles for visited links
+
+---
+
+## 🎯 Purpose
+This project helps beginners understand:
+
+* How CSS interacts with user actions
+* How to create interactive UI elements
+* Basics of front-end styling
+
+---
+
+## 🛠️ How to Use
+1. Clone the repository
+2. Open the HTML file in browser
+3. Hover and click links to see effects
+
+---
+
+## 🙌 Author
+**Shivprasad**
+
+---
+
+## ⭐ Support
+If you like this project, give it a ⭐ on GitHub!
