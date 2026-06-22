@@ -1127,3 +1127,129 @@ This project helps beginners understand:
 
 ## ⭐ Support
 If you like this project, give it a ⭐ on GitHub!
+--------------------------------------------------------------------------------------------------------------------------------------
+html.html(22/06/2026)
+# 📌 Display vs Visibility Demo (HTML, CSS, JavaScript)
+
+## 📖 Overview
+
+This project demonstrates the difference between two important CSS properties:
+
+* `display`
+* `visibility`
+
+It also includes simple JavaScript examples to dynamically show, hide, and reset elements on a webpage.
+
+---
+
+## 🚀 Features
+
+* Toggle a hidden panel using `display: none` and `display: block`
+* Understand how `visibility: hidden` works
+* Interactive buttons to:
+
+  * Remove elements from layout
+  * Hide elements without removing space
+  * Reset elements to original state
+
+---
+
+## 🧠 Key Concepts
+
+### 🔹 `display: none`
+
+* Completely removes the element from the page
+* Element does **not take any space**
+
+### 🔹 `visibility: hidden`
+
+* Element becomes invisible
+* Still **occupies space in layout**
+
+---
+
+## 📂 Project Structure
+
+* HTML for structure
+* CSS for styling and layout
+* JavaScript for interaction
+
+---
+
+## ⚙️ How It Works
+
+### 1. Toggle Panel
+
+* A paragraph (`Click to show panel`) triggers a function
+* JavaScript changes:
+
+  * `display: none` → `display: block`
+
+### 2. Remove Element
+
+* Button sets:
+
+  * `display: none`
+* Element disappears completely
+
+### 3. Hide Element
+
+* Button sets:
+
+  * `visibility: hidden`
+* Element becomes invisible but space remains
+
+### 4. Reset
+
+* Restores:
+
+  * `display: block`
+  * `visibility: visible`
+
+---
+
+## 🖥️ Usage
+
+1. Open the HTML file in your browser
+2. Click buttons to see behavior
+3. Observe layout changes carefully
+
+---
+
+## 🎯 Learning Outcome
+
+After this project, you will understand:
+
+* Difference between `display` and `visibility`
+* DOM manipulation using JavaScript
+* Basic UI interaction handling
+
+---
+
+## 📸 Example Use Cases
+
+* Show/Hide menus
+* Toggle modals or panels
+* Control UI elements dynamically
+
+---
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript (Vanilla JS)
+
+---
+
+## 📌 Conclusion
+
+This is a beginner-friendly project to clearly understand how elements behave in a webpage when using `display` and `visibility`.
+
+---
+
+## ⭐ Author
+
+Shivprasad
+(Frontend & Web Development Learner 🚀)
+---
