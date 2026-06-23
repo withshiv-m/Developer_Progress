@@ -1253,3 +1253,132 @@ This is a beginner-friendly project to clearly understand how elements behave in
 Shivprasad
 (Frontend & Web Development Learner 🚀)
 ---
+-----------------------------------------------------------------------------------------------------------------------------------------
+position.html(23/06/2026)
+# CSS Positioning Demo
+
+This project demonstrates the different types of CSS `position` properties using simple HTML and CSS examples. It is designed for beginners who want to understand how elements are positioned on a webpage.
+
+---
+
+## 📌 Features
+
+* Demonstrates 5 types of CSS positioning:
+
+  * `static`
+  * `relative`
+  * `fixed`
+  * `absolute`
+  * `sticky`
+* Simple and beginner-friendly code
+* Scrollable page to test `sticky` behavior
+
+---
+
+## 📂 Project Structure
+
+```
+folder/
+│── position.html
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/css-position-demo.git
+```
+
+### 2. Open the project
+
+* Navigate to the project folder
+* Open `index.html` in your browser
+
+---
+
+## 📖 Explanation of Positions
+
+### 1. Static
+
+* Default position
+* Elements follow normal page flow
+
+### 2. Relative
+
+* Positioned relative to itself
+* Can move using `top`, `left`, `right`, `bottom`
+
+### 3. Fixed
+
+* Stays fixed on screen even when scrolling
+* Positioned relative to viewport
+
+### 4. Absolute
+
+* Positioned relative to nearest positioned ancestor
+* Removed from normal flow
+
+### 5. Sticky
+
+* Acts like relative until scroll threshold
+* Then sticks to a fixed position
+
+---
+
+## 🧪 How to Test
+
+* Open the page in a browser
+* Scroll down to see the **sticky element**
+* Notice how:
+
+  * Fixed element stays in place
+  * Absolute element positions relative to page
+  * Relative element shifts from its original position
+
+---
+
+## 🎯 Purpose
+
+This project is useful for:
+
+* Beginners learning CSS
+* Practicing layout concepts
+* Understanding positioning behavior visually
+
+---
+
+## 📸 Preview
+
+Open the HTML file in your browser to see live behavior.
+
+---
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork this repository and improve the examples.
+
+---
+
+## 📄 License
+
+This project is open-source and free to use.
+
+---
+
+## 👨‍💻 Author
+
+Shivprasad
+
+---
+
+⭐ If you found this helpful, don't forget to star the repo!
