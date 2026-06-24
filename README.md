@@ -1382,3 +1382,93 @@ Shivprasad
 ---
 
 ⭐ If you found this helpful, don't forget to star the repo!
+----------------------------------------------------------------------------------------------------------------------------------------
+z-index.html(24/06/2026)
+# 🎯 CSS Z-Index & Positioning Demo
+This project demonstrates how **CSS positioning** and **z-index** work together to control the stacking order of elements on a webpage.
+
+---
+
+## 📌 Overview
+
+In this example, we use different CSS positioning properties like:
+
+* `relative`
+* `absolute`
+* `sticky`
+
+Along with `z-index` to control which element appears **on top of others**.
+
+---
+
+## 🧱 Project Structure
+
+* **Container** → Parent element with `position: relative`
+* **Black Box** → Base element (`z-index: 1`)
+* **Green Box** → Overlaps black box (`z-index: 2`)
+* **Gray Box** → Topmost element (`z-index: 3`)
+
+---
+
+## 🚀 Key Concepts
+
+### 🔹 Positioning
+
+* `relative` → Positioned relative to itself
+* `absolute` → Positioned relative to nearest positioned parent
+* `sticky` → Switches between relative and fixed based on scroll
+
+### 🔹 Z-Index
+
+* Controls **stack order**
+* Higher value → appears on top
+* Works only on positioned elements
+
+---
+
+## 🖼️ Behavior
+
+* Gray box appears above all elements (`z-index: 3`)
+* Green box appears above black box (`z-index: 2`)
+* Black box stays at the bottom (`z-index: 1`)
+
+---
+
+## 💡 Example Output
+
+When you run this code:
+
+* Elements overlap each other
+* The stacking order is clearly visible
+
+---
+
+## 🛠️ How to Run
+
+1. Copy the code into an `.html` file
+2. Open it in any browser
+3. Observe how elements overlap based on `z-index`
+
+---
+
+## 📚 Learning Purpose
+
+This project is useful for beginners learning:
+
+* CSS positioning
+* Layout design
+* Layer management in UI
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork this repository and experiment with different `z-index` values and positioning types.
+
+---
+
+## ⭐ Support
+
+If you found this helpful, give it a ⭐ on GitHub!
+
+---
