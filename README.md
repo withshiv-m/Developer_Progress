@@ -1471,4 +1471,123 @@ Feel free to fork this repository and experiment with different `z-index` values
 
 If you found this helpful, give it a ⭐ on GitHub!
 
+--------------------------------------------------------------------------------------------------------------------------------------
+overflow.html(26/06/2026)
+# CSS Overflow Demo
+This project demonstrates how the CSS `overflow` property works using simple HTML and CSS examples.
+
+## 📌 Overview
+
+The `overflow` property in CSS controls what happens when content overflows the boundaries of its container. This repository includes examples of:
+
+* `overflow: scroll`
+* `overflow: visible`
+
+These examples help beginners understand how content behaves when it exceeds a defined width and height.
+
 ---
+
+## 🚀 Features
+
+* Simple and beginner-friendly code
+* Demonstrates scrolling behavior
+* Shows default overflow behavior (`visible`)
+* Clean UI using basic CSS styling
+
+---
+
+## 📂 Project Structure
+
+```
+project-folder/
+│── overflow.html
+│── README.md
+```
+
+---
+
+## 🧪 How It Works
+
+### 1. Overflow: Scroll
+
+```css
+#overflow {
+    background: gray;
+    color: white;
+    padding: 15px;
+    width: 90%;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid black;
+}
+```
+
+* Adds both horizontal and vertical scrollbars
+* Allows user to scroll through overflowing content
+
+---
+
+### 2. Overflow: Visible
+
+```css
+div {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: visible;
+}
+```
+
+* Default behavior
+* Content spills outside the container
+
+---
+
+## 💻 How to Run
+
+1. Download or clone this repository:
+
+   ```
+   git clone https://github.com/your-username/css-overflow-demo.git
+   ```
+
+2. Open `index.html` in your browser
+
+---
+
+## 📖 Output Explanation
+
+* The first box shows a fixed height container with scrollbars
+* The second box shows content overflowing outside the box
+
+---
+
+## 🎯 Learning Outcome
+
+After using this project, you will understand:
+
+* How `overflow` works in CSS
+* When to use `scroll` vs `visible`
+* How to control layout and content behavior
+
+---
+
+## 📌 Future Improvements
+
+* Add `overflow: hidden`
+* Add `overflow: auto`
+* Include interactive examples
+
+---
+
+## 🙌 Contributing
+
+Feel free to fork this repository and improve it!
+
+---
+
+## 📜 License
+
+This project is open-source and free to use.
+-----------------------------------------------------------------------------------------------------------------------------------------
