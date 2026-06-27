@@ -1591,3 +1591,91 @@ Feel free to fork this repository and improve it!
 
 This project is open-source and free to use.
 -----------------------------------------------------------------------------------------------------------------------------------------
+float.html(27/06/2026)
+# 📄 Simple HTML & CSS Float Project
+
+## 🚀 Overview
+
+This is a basic HTML and CSS project demonstrating how to use the **`float` property** in CSS to position an image alongside text.
+
+The image is floated to the right, and the text wraps around it, creating a simple layout.
+
+---
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+
+---
+
+## 📌 Features
+
+* Image aligned to the right using `float: right`
+* Text wrapping around the image
+* Simple and clean layout
+* Beginner-friendly example
+
+---
+
+## 📂 Project Structure
+
+```
+project-folder/
+│── float.html
+│── pg.png
+│── README.md
+```
+
+---
+
+## 💻 Code Explanation
+
+### 🔹 CSS
+
+```css
+img {
+    float: right;
+    margin-left: 15px;
+    width: 200px;
+    height: 200px;
+}
+```
+
+* `float: right` → Moves image to the right
+* `margin-left: 15px` → Adds space between text and image
+* `width & height` → Controls image size
+
+---
+
+## ▶️ How to Run
+
+1. Download or clone the repository
+2. Open `index.html` in any browser
+3. Make sure `pg.png` is in the same folder
+
+---
+
+## 🎯 Learning Outcome
+
+* Understanding of CSS float
+* How text wraps around elements
+* Basic layout creation
+
+---
+
+## 📸 Preview
+
+Simple layout where the image appears on the right and text flows around it.
+
+---
+
+## 🙌 Author
+
+**Shivprasad**
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
