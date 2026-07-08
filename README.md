@@ -1873,3 +1873,109 @@ This project helps you understand:
 * Basic HTML structure and forms
 
 ------------------------------------------------------------------------------------------------------------------------------
+navbar.html(08/07/2026)
+# 📌 Vertical Navigation Bar (HTML & CSS)
+This project demonstrates how to create a **fixed vertical navigation bar (sidebar)** using HTML and CSS. The navbar stays in place while the content scrolls, providing a smooth and user-friendly layout.
+
+---
+
+## 🚀 Features
+
+* 📍 Fixed sidebar navigation
+* 📜 Scrollable content area
+* 🎯 Active link highlighting
+* 🎨 Hover effects for better UI
+* 📱 Simple and responsive-friendly structure
+* 🧱 Clean layout using pure HTML & CSS (no JavaScript)
+
+---
+
+## 📂 Project Overview
+
+### 🔹 Fixed Sidebar Navigation
+
+```css
+ul {
+    position: fixed;
+    height: 100%;
+    width: 130px;
+    overflow: auto;
+}
+```
+
+✔ Keeps the navbar **fixed on the left side** even when scrolling.
+
+---
+
+### 🔹 Navigation Links Styling
+
+```css
+li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+```
+
+✔ Makes links behave like **block elements** for better click area.
+
+---
+
+### 🔹 Hover Effect
+
+```css
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+```
+
+✔ Improves user experience with **interactive hover styling**.
+
+---
+
+### 🔹 Active Link Highlight
+
+```css
+li a.active {
+    background-color: #b8e907;
+    color: white;
+}
+```
+
+✔ Shows the **currently selected page**.
+
+---
+
+### 🔹 Content Area Adjustment
+
+```css
+div {
+    margin-left: 130px;
+}
+```
+
+✔ Prevents content from overlapping the sidebar.
+
+---
+
+## 📸 Demo Behavior
+
+* Sidebar stays fixed on the left 📍
+* Content scrolls independently 📜
+* Links highlight on hover 🎯
+* Active page is visually distinct 🎨
+
+---
+
+## 📖 Learning Concepts
+
+This project helps you understand:
+
+* CSS `position: fixed`
+* Layout structuring with sidebars
+* Navigation UI design basics
+* Hover and active states in CSS
+* Managing overflow with `overflow: auto`
+
+---
