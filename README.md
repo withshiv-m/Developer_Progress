@@ -1668,14 +1668,208 @@ img {
 
 Simple layout where the image appears on the right and text flows around it.
 
+--------------------------------------------------------------------------------------------------------------------------------------
+align.css(08/07/2026)
+# 🎨 CSS Layout & Positioning Techniques
+This repository demonstrates different **CSS techniques for centering elements, aligning images, and positioning content** on a webpage. It is useful for beginners learning layout concepts in web development.
+
 ---
 
-## 🙌 Author
+## 🚀 Features
 
-**Shivprasad**
+* Center elements using:
+
+  * Flexbox
+  * Grid
+  * Absolute positioning
+  * Margin auto
+* Image alignment (centered images)
+* Right-side positioned container
+* Clean and simple CSS examples
 
 ---
 
-## ⭐ Support
+## 📂 Code Overview
 
-If you like this project, give it a ⭐ on GitHub!
+### 🔹 Centering Techniques
+
+1. **Flexbox Method**
+
+```css
+.centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+```
+
+2. **Grid Method**
+
+```css
+.centre {
+    display: grid;
+    place-items: center;
+}
+```
+
+3. **Absolute Position + Transform**
+
+```css
+.centre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+```
+
+4. **Margin Auto Method**
+
+```css
+.centre {
+    margin: auto;
+    width: 50%;
+}
+```
+
+---
+
+### 🖼️ Image Centering
+
+```css
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+```
+
+✔ Centers the image horizontally using `auto` margins.
+
+---
+
+### 📌 Right-Aligned Box
+
+```css
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid red;
+    padding: 10px;
+}
+```
+
+✔ Positions an element at the **right side of the container**.
+
+---
+
+## 📖 Learning Purpose
+
+This project helps you understand:
+
+* Different ways to center elements in CSS
+* When to use Flexbox vs Grid
+* How positioning works (`absolute`, `relative`)
+* Practical layout strategies for real-world UI
+---------------------------------------------------------------------------------------------------------------------------------------
+opacity.html(08/07/2026)
+# 🌐 HTML & CSS Effects Demo
+This project demonstrates various **CSS visual effects and pseudo-class interactions** using a simple HTML page. It is ideal for beginners learning how to make web pages interactive and visually appealing.
+
+---
+
+## 🚀 Features
+
+* 🖼️ Background image with overlay transparency
+* 📦 Transparent content box using `rgba()`
+* 🌫️ Image opacity and hover effects
+* 🎯 Input field focus styling
+* 👆 Hover-based content display
+* 🎨 Clean and beginner-friendly code
+
+---
+
+## 📂 Project Overview
+
+### 🔹 Transparent Background Box
+
+```css
+div.background {
+    background: url(ss1.jpg) repeat;
+}
+
+div.transbox {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+```
+
+✔ Creates a **transparent overlay box** on top of a background image.
+
+---
+
+### 🖼️ Image Opacity Effect
+
+```css
+img {
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+```
+
+✔ Image becomes **fully visible on hover**, creating a smooth visual effect.
+
+---
+
+### 🎯 Input Focus Effect
+
+```css
+input:focus {
+    background-color: yellow;
+}
+```
+
+✔ Highlights input fields when the user clicks or types in them.
+
+---
+
+### 👆 Hover to Show Hidden Content
+
+```css
+p {
+    display: none;
+}
+
+div:hover p {
+    display: block;
+}
+```
+
+✔ Hidden text appears when hovering over a `div`.
+
+---
+
+## 📸 Demo Behavior
+
+* Transparent box overlays text on background image
+* Image fades and becomes clear on hover
+* Input fields change color when focused
+* Hidden text appears when hovering over a section
+
+---
+
+## 📖 Learning Concepts
+
+This project helps you understand:
+
+* CSS `opacity` and hover effects
+* `rgba()` for transparency
+* CSS pseudo-classes (`:hover`, `:focus`)
+* Display properties (`display: none/block`)
+* Basic HTML structure and forms
+
+------------------------------------------------------------------------------------------------------------------------------
