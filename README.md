@@ -1978,4 +1978,74 @@ This project helps you understand:
 * Hover and active states in CSS
 * Managing overflow with `overflow: auto`
 
+------------------------------------------------------------------------------------------------------------------------------
+re_navbar.html(10/07/2026)
+# 📌 Responsive Side Navigation Bar (HTML + CSS)
+
+## 🚀 Project Overview
+
+This project is a **responsive side navigation bar (sidenav)** built using **pure HTML and CSS**. It adapts beautifully across different screen sizes using **CSS media queries**.
+
+* Desktop → Fixed vertical sidebar
+* Tablet → Horizontal top navbar
+* Mobile → Centered navigation links
+
 ---
+
+## 🎯 Features
+
+✅ Fixed sidebar on large screens
+✅ Fully responsive design
+✅ Smooth hover effects
+✅ Active link highlighting
+✅ Clean and simple UI
+✅ No JavaScript required
+
+---
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* Media Queries (Responsive Design)
+
+---
+
+## 📂 Project Structure
+
+```
+📁 project-folder
+ ├── index.html
+ └── README.md
+```
+
+---
+
+## 📸 How It Works
+
+### 💻 Desktop View
+
+* Sidebar stays fixed on the left
+* Content appears on the right
+
+### 📱 Tablet View (≤ 900px)
+
+* Sidebar becomes a top navbar
+* Links align horizontally
+
+### 📲 Mobile View (≤ 400px)
+
+* Links stack vertically
+* Center-aligned for better readability
+
+---
+
+## 📚 Key Concepts Covered
+
+* CSS Positioning (`fixed`, `relative`)
+* Responsive Design using `@media`
+* Flexibility with percentages
+* Hover effects and pseudo-classes
+* Layout shifting based on screen size
+
+-----------------------------------------------------------------------------------------------------------------------------------------
